@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title> 动态首页-哔哩哔哩</title>
+    <style>
+    body{
+        background-image: url("E:\HTML programs\pic.png");
+         background-repeat: no-repeat;
+  background-position: right top;/*决定图像位置*/
+  background-attachment: scroll;/*指定图像随页面一起滚动*/
+    }
+    h1{text-decoration: overline; }
+    a:link {color:black;}      /* 未访问链接*/
+    a:visited {color:#red;}  /* 已访问链接 */
+    a:hover {color:blue;}  /* 鼠标移动到链接上 */
+    a:active {color:yellow;}  /* 鼠标点击时 */
+ #myHeader {
+  background-color: dodgerblue;
+  color: white;
+  padding: 40px;
+  text-align: center;
+} 
+ol.b{list-style-type:upper-roman;}
+p.dotted {border-style: dotted;}/*点状边框*/
+p.dashed {border-style: dashed;}/*虚线边框*/
+p.solid {border-style: solid;}/*实线边框*/
+p.double {border-style: double;}/*双线边框*/
+p.groove {border-style: groove;}/*凹槽边框*/
+p.ridge {border-style: ridge;}/*垄状边框*/
+p.inset {
+border-style: inset;
+border-width:3px;
+border-color:dodgerblue;}/*inset边框*/
+p.outset {border-style: outset;}/*outset边框*/
+p.none {border-style: none;}/*无边框*/
+p.hidden {border-style: hidden;}/*隐藏边框*/
+p.mix {border-style: dotted dashed solid double;}/*特定边宽度顺序为从上边开始顺时针转动*/
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:rgba(51, 15, 196, 0.645);
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+/* *{
+    margin: 0%;
+    padding: 0%;
+}通配符*/
+.ziti{
+    font-size:46px;font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<h1 id="myHeader">
+BILIBILI
+</h1>
+<h2  class="ziti">全部动态</h2>
+<br>
+<div>
+<ol style="color:blue" class="b">
+<li>up 1 </li>
+<li>up 2</li>
+<li>up 3 </li>
+<li>up 4 </li>
+<li>up 5 </li>
+<li>up 6 </li>
+</ol>
+</div>
+<!--ul无序，ol有序-->
+<br>
+<hr>
+<!--内联样式-->
+<div id=section>
+<p style="margin-left: 20px" class="inset">第一行
+<!--设置锚点-->
+<br>
+第二行
+<br>
+第三行</p>
+</div>
+<table border="1">
+<tr>
+<td>year</td>
+<td>month</td>
+<td>day</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>5</td>
+<td>7</td>
+</tr>
+<iframe src="demo_iframe.htm"  width="1550" height="600" name="iframe_a" frameborder="0"></iframe>
+<p><a href="https://www.bilibili.com/?spm_id_from=444.41.0.0" target="iframe_a">哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a></p>
+<a name="tips"></a><a href="https://t.bilibili.com/?spm_id_from=333.1007.0.0#tips" target="blank">动态首页</a>
+<br>
+<hr>
+<br>
+<button>this is a button</button>
+<img  src="https://i0.hdslb.com/bfs/album/5d4b483e30da1243d06e6e4c15d6c5138c8e0543.jpg@1295w.webp"  alt="出现了一点问题" width="459" height="721"/>
+<div id=footer>
+为什么一个页面写得这么丑还有人滑到底捏？
+</div>
+</body>
+</html>
