@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>display(invisible)-sheet</title>
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .list{
+            width: 300px;
+            margin: 0 auto;
+        }
+        ul{
+            list-style: none;
+        }
+        .item{
+            float:left;
+            width: 148px;
+            text-align: center;
+            border: 1px solid blueviolet;
+            line-height: 30px;
+            background-color: blue;
+        }
+        .item:hover{
+            background-color: lightblue;
+        }
+        .item ul{
+            display: none;
+            background-color: white;
+            color: #000;
+        }
+        .item:hover ul{
+            display: block;
+        }
+        .item li:hover{
+            color: blue;
+        }
+    </style>
+    <body>
+<ul class="list">
+    <li class="item">视频认证
+        <ul>
+            <li>全部视频教程</li>
+            <li>HTML视频教程</li>
+            <li>CSS视频教程</li>
+            <li>Javascript视频教程</li>
+            <li>VUE视频教程</li>
+        </ul>
+    </li>
+    <li class="item">等级考试
+        <ul>
+            <li>pmp</li>
+            <li>redhat</li>
+        </ul>
+    </li>
+</ul>
+
+    </body>
+</html>
