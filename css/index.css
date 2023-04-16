@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.con {
+    width: 966px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    width: 265px;
+    height: 100px;
+    background: url(https://tse2-mm.cn.bing.net/th/id/OIP-C.bfFqtRSDVT9z6Tc4TojRigHaFW?w=216&h=180&c=7&r=0&o=5&pid=1.7);
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.headerright {
+    float: right;
+}
+
+.headerright ul {
+    height: 44px;
+    line-height: 44px;
+    margin-top: 1opx;
+}
+
+.headerright li {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+}
+
+.headerright li a {
+    border-right: 1px solid #b2c7ea;
+    padding: 0 13px 13px;
+    font-size: 13px;
+}
+
+.headerright .last {
+    padding-right: 0;
+    border: 0;
+}
+
+.headerright .active {
+    color: red;
+}
+
+.search {
+    float: right;
+    width: 248px;
+    height: 28px;
+    border: 1px solid grey;
+}
+
+.search input {
+    border: 0;
+    outline: none;
+}
+
+.search .left {
+    width: 210px;
+    float: left;
+    height: 28px;
+    padding-left: 14px;
+}
+
+.search .right {
+    float: right;
+    height: 28px;
+    width: 24px;
+    background: url(/img/search.png) no-repeat left center;
+}
+
+.nav {
+    height: 53px;
+    line-height: 53px;
+    border-top: 1px solid #657588;
+    color: white;
+    background: #3c8cdb;
+}
+
+.nav li {
+    font-size: 16px;
+    margin-right: 76px;
+    float: left;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url(/img/eldenring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.list {
+    height: 213px;
+    margin-top: 51px;
+    margin-bottom: 35px;
+}
+
+.list .item {
+    height: 211px;
+    width: 305px;
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #cccccc;
+}
+
+.item img {
+    height: 170px;
+    width: 305px;
+    display: block;
+}
+
+.item p {
+    height: 43px;
+    line-height: 43px;
+    padding-left: 26x;
+}
+
+.itemlast {
+    margin-right: 0;
+}
+
+.footer {
+    height: 206px;
+    border: 1px solid #cccccc;
+    background-image: linear-gradient(#cccccc, white);
+}
+
+.footer ul {
+    height: 84px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ecebeb;
+    line-height: 28px;
+}
+
+.footer ul li {
+    width: 210px;
+    padding-left: 30px;
+    font-size: 12px;
+    color: #336699;
+    float: left;
+}
+.footer p{
+    height: 61px;
+    line-height: 61px;
+    padding-left: 30px;
+    font-size: 12px;
+}
